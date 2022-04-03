@@ -1,6 +1,8 @@
 import React from "react";
 import Profile from './profile/Profile';
 import user from './profile/user.json'
+import data from '.profil/data.json'
+
 
 // console.log(user);
 
@@ -14,7 +16,15 @@ const App = () => {
           avatar={user.avatar}
           stats={user.stats}
         />
+
+      <Statistics title="Upload stats" stats={data} />;
+      <Statistics stats={data} />;
+
    </div>
+   
+
+
+
    )
 };
 
