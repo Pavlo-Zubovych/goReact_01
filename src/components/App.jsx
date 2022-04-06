@@ -1,8 +1,8 @@
 import React from "react";
 import Profile from './profile/Profile';
-import Statistics from './profile/Statistics'
-import user from './profile/user.json'
-import data from '.profil/data.json'
+import Statistics from './profile/Statistics';
+import user from './profile/user.json';
+import data from './profile/data.json';
 
 
 // console.log(user);
@@ -18,7 +18,7 @@ const App = () => {
           stats={user.stats}
         />
 
-      <Statistics title="Upload stats" stats={data} />;
+      <Statistics title="Upload stats" stats={data} />
       <Statistics stats={data} />;
 
    </div>
