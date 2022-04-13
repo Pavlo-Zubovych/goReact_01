@@ -12,7 +12,6 @@ import data from '../data.json';
 const App = () => {
   return (
     <div>
-      <FriendList friends={friends} />
 
       <Profile
           username={user.username}
@@ -25,6 +24,7 @@ const App = () => {
       <Statistics title="Upload stats" stats={data} />
       <Statistics stats={data}/>
       
+      <FriendList friends={friends} />
 
 
 
