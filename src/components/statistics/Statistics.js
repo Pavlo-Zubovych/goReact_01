@@ -4,13 +4,13 @@ import PropTypes from 'prop-types';
 const Statistics = ({ title, stats }) => (
   // <div>Hi gays</div>
 
-  <section class="statistics">
-    {title && <h2 class="title">{title}</h2>}
-    <ul class="stat-list"></ul>
+  <section className="statistics">
+    {title && <h2 className="title">{title}</h2>}
+    <ul className="stat-list"></ul>
     {stats.map(({ id, label, percentage }) => (
-      <li key={id} class="item">
-        <span class="label">{label}</span>
-        <span class="percentage"> - {percentage}%</span>
+      <li key={id} className="item">
+        <span className="label">{label}</span>
+        <span className="percentage"> - {percentage}%</span>
       </li>
     ))}
   </section>

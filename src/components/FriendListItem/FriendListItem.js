@@ -2,20 +2,20 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const FriendListItem = ({ avatar, name, isOnline }) => (
-  <li class="item">
-    {/* <span class="status">{isOnline}</span> */}
+  <li className="item">
+    {/* <span className="status">{isOnline}</span> */}
     {isOnline ? (
-      <span class="status" style={{ backgroundColor: '#55AC57' }}>
+      <span className="status" style={{ backgroundColor: '#55AC57' }}>
         + {isOnline}
       </span>
     ) : (
-      <span class="status" style={{ backgroundColor: '#E0343B' }}>
+      <span className="status" style={{ backgroundColor: '#E0343B' }}>
         - {isOnline}
       </span>
     )}
 
-    <img class="avatar" src={avatar} alt="User avatar" width="48" />
-    <p class="name">{name}</p>
+    <img className="avatar" src={avatar} alt="User avatar" width="48" />
+    <p className="name">{name}</p>
   </li>
 );
 
