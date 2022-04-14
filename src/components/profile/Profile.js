@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 const Profile = ({ username, tag, location, avatar, stats }) => (
   <div className="profile">
     <div className="description">
-      <img src={avatar} alt="User avatar" className="avatar" width="320" />
+      <img src={avatar} alt="User avatar" className="avatar" width="120" />
       <p className="name">{username}</p>
       <p className="tag">@{tag}</p>
       <p className="location">{location}</p>
