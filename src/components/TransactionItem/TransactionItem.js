@@ -8,6 +8,7 @@ const TransactionItem = ({ type, amount, currency }) => (
     <td>{currency}</td>
   </tr>
 );
+
 TransactionItem.propTypes = {
   type: PropTypes.string,
   amoumt: PropTypes.string,
