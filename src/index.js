@@ -1,12 +1,13 @@
 import React from 'react';
 import App from './components/App';
 import ReactDOM from 'react-dom';
+import 'modern-normalize/modern-normalize.css';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+    <React.StrictMode>
+        <App />
+    </React.StrictMode>,
+    document.getElementById('root'),
 );
 
 // const Link = React.createElement(
