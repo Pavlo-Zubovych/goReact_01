@@ -7,8 +7,6 @@ function onRandomColor() {
 }
 
 const Statistics = ({ title, stats }) => (
-    // <div>Hi gays</div>
-    // <section>
     <section className={styles.statistics}>
         {title && <h2 className={styles.title}>{title}</h2>}
 
